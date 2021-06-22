@@ -25,5 +25,39 @@ body {
 header {
     padding-left: 25px;
     padding-top: 15px;
-    border-top: 1px solid lightgray ;
+    padding-bottom: 15px;
+    border-top: 1px solid whitesmoke ;
+}
+
+main {
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
+
+.div-buttons {
+    height: 50px;
+    padding-top: 13px;
+    padding-left: 40px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.button1 {
+    height: 28px;
+    width: 75px;
+    background-color: deepskyblue;
+    color: white;
+    border: deepskyblue;
+    border-radius: 3px;
+}
+
+.button2 {
+    height: 28px;
+    width: 90px;
+}
+
+.central-part {
+    max-width: 60%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
