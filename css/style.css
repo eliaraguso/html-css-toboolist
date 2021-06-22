@@ -60,6 +60,8 @@ main {
     background-color: white;
     margin-left: auto;
     margin-right: auto;
+    border-top: 30px solid whitesmoke;
+    border-bottom: 10px solid whitesmoke;
 }
 
 ul {
@@ -68,4 +70,8 @@ ul {
 
 .inline {
     display: inline;
+}
+
+.lista-centrale {
+    padding-left: 40px;
 }
