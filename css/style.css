@@ -1,0 +1,29 @@
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* common */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 1920px;
+    
+}
+
+.logo-img {
+    vertical-align: middle;
+}
+
+.logo-text{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding-left: 30px;
+    padding-top: 30px;
+    border-top: 1px solid lightgray ;
+}
