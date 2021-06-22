@@ -20,6 +20,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
 }
 
 header {
@@ -56,7 +57,7 @@ main {
 }
 
 .central-part {
-    max-width: 60%;
+    max-width: 70%;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
@@ -68,8 +69,14 @@ ul {
     list-style: none;
 }
 
+
 .inline {
     display: inline;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
 }
 
 .lista-centrale {
@@ -78,6 +85,7 @@ ul {
     line-height: 50px;
     font-size: 25px;
     word-spacing: 3px;
+    font-weight: bold;
 }
 
 .v-spunta {
@@ -87,7 +95,7 @@ ul {
     padding: 6px;
     font-size: 15px;
     margin-right: 15px;
-}
+    }
 
 .croce-spunta {
     color: red;
@@ -100,4 +108,52 @@ ul {
 
 .freccia-giu {
     margin-right: 15px;
+}
+
+.editorial {
+    background-color: deepskyblue;
+    font-size: 12px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+
+.q1-goals {
+    background-color: rgb(146, 62, 185);
+    font-size: 12px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+
+.recruiting {
+    background-color: rgba(20, 194, 179, 0.616);
+    font-size: 12px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+
+.mobile{
+    background-color: rgb(255, 145, 0);
+    font-size: 12px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+
+.website {
+    background-color: rgb(170, 53, 145);
+    font-size: 12px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+
+.sales {
+    background-color: rgba(144, 209, 40, 0.815);
+    font-size: 12px;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
 }
